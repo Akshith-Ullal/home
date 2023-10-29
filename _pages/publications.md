@@ -19,7 +19,7 @@ author_profile: true
 
 * Migovich, M., **Ullal, A.**, et. al. " Feasibility of wearable devices and machine learning for sleep classification in children with Rett syndrome: A pilot study." In <i>Digital Health,</i> pp. 1-9. 2023. <a href = "https://journals.sagepub.com/doi/full/10.1177/20552076231191622">Download</a>
 
-* **Ullal, A.**, Watkins, A., Sarkar, N. "An Efficient Redirection of Positional Interactions in Mixed/ Augmented Reality." <i>International Journal of Semantic Computing, </i> 17(1), pp. 95-118, 2023. <a href =https://www.worldscientific.com/doi/abs/10.1142/S1793351X22490022>Download</a>
+* **Ullal, A.**, Watkins, A., Sarkar, N. "An Efficient Redirection of Positional Interactions in Mixed/ Augmented Reality." <i>International Journal of Semantic Computing, </i> 17(1), pp. 95-118, 2023. <a href ="https://www.worldscientific.com/doi/abs/10.1142/S1793351X22490022">Download</a>
 
 * **Ullal, A.**, Watkins, A., Sarkar, N. "A Multi-Objective Optimization Framework for Redirecting Pointing Gestures in Remote-Local Mixed/Augmented Reality" In Proceedings of the <i>2022 ACM Symposium on Spatial User Interaction, </i> pp. 1-11,2022. <a href = "https://dl.acm.org/doi/abs/10.1145/3565970.3567681">Download</a>
 
@@ -43,4 +43,4 @@ author_profile: true
 
 <h2>Book Chapters</h2>
 
-* **Ullal, A.**, and Pachori, R. "Variational mode decomposition based automated diagnosis method for epilepsy using EEG signals.” In <i>Deep learning, machine learning and IoT in biomedical and health informatics, CRC Press, </i>pp. 89 – 111, 2022. <a href = "https://www.researchgate.net/profile/Sujata-Dash/publication/357923002_Analysis_and_Prediction_of_COVID-19_Pandemic/links/622ee47ea39db062db9bbf5f/Analysis-and-Prediction-of-COVID-19-Pandemic.pdf#page=109">Download</a>
+* **Ullal, A.**, and Pachori, R. "Variational mode decomposition based automated diagnosis method for epilepsy using EEG signals.” In <i>Deep learning, machine learning and IoT in biomedical and health informatics, CRC Press, </i>pp. 89 – 111, 2022. <a href = "https://www.taylorfrancis.com/chapters/edit/10.1201/9780367548445-7/variational-mode-decomposition-based-automated-diagnosis-method-epilepsy-using-eeg-signals-akshith-ullal-ram-bilas-pachori">Download</a>
