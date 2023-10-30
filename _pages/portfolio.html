@@ -7,45 +7,48 @@ author_profile: true
 
 <h2>Mapping of gestures between local and remote environments in mixed/augmented reality</h2>
 <figure>
-  <img src="research_portfolio_images/positional_project.png" alt="AR telepresence system" class="center" width=40% 
+  <img src="positional_project.png" alt="AR telepresence system" class="center" width=40% 
   height=27%>
-  <figcaption>Fig. 1: (a) User2 in their environment holding a cup of tea. (b) User2’s photorealistic avatar as seen by User1 wearing the AR HMD with a direct one-to-one mapping of User2’s gestures.
-   Note the positional and gaze errors. (c) Correction of positional errors as done by current approaches, no gaze and nonverbal behavior of the original interaction is preserved. 
-   (d) Desired correction of the error (proposed framework), that preserves the nonverbal aspects of the interaction, that is important in establishing social presence. </figcaption>
+  <figcaption>Fig. 1: The above figure depicts the problem formulation for redirecting contact interactions in AR telepresence with our novel approach to solve it. (a) User2 in their environment holding a cup of tea. 
+    (b) User2’s photorealistic avatar as seen by User1 wearing the AR HMD with a direct one-to-one mapping of User2’s gestures.
+  Note the positional and gaze errors. (c) Correction of positional errors as done by current approaches, no gaze and nonverbal behavior of the original interaction is preserved. 
+   (d) Desired correction of the error (<a href ="https://www.youtube.com/watch?v=9drgJpYwI6A">our framework</a>), that preserves the nonverbal aspects of the interaction, that is important in establishing social presence. </figcaption>
 </figure>
-<p align="justify">In this chapter, we describe our framework for mapping a user’s gestural interactions from their environment to that of their avatar’s. Gestural interactions can be 
-  divided into two types: i) positional interactions and ii) pointing interactions. Positional interactions are interactions where the user has physical contact with an 
-  object in their environment. For example, picking cup a chess piece. Pointing interactions are interactions where the user points at a particular object in their environment.
-   Both these interactions need to be mapped onto the user’s avatar, in its environment, such that the interaction has its original intended meaning. </p>
-
 <figure>
-  <img src="research_portfolio_images/pointing_project.png" alt="AR telepresence system" class="center" width=40% 
+  <img src="pointing_project.png" alt="AR telepresence system" class="center" width=40% 
   height=27%>
-  <figcaption>Fig. 2: Remote Local AR setup. (a) User2 pointing in their environment. (b) User2’s photorealistic avatar as seen by User1 wearing the AR HMD with a direct one-to-one mapping of User2’s gestures. 
+  <figcaption>Fig. 2: The above figure depicts the problem formulation for redirecting pointing interactions in AR telepresence with our novel approach to solve it. (a) User2 pointing in their environment. (b) User2’s photorealistic avatar as seen by User1 wearing the AR HMD with a direct one-to-one mapping of User2’s gestures. 
     Note the error in the pointing gesture. (c) Correction of pointing errors as done by current approaches; body pose-nonverbal communication of the original interaction is not preserved. 
-    (d) Correction of the pointing error by our presented framework, that preserves the nonverbal aspects of the interaction, that is important in establishing social presence.  The picture depicts a volunteer and is used with permission.</figcaption>
+    (d) Correction of the pointing error by <a href ="https://www.youtube.com/watch?v=1SoQeRj6p_M">our presented framework</a>, that preserves the nonverbal aspects of the interaction, that is important in establishing social presence.  The picture depicts a volunteer and is used with permission.</figcaption>
 </figure>
+<p align="justify">The above figures show mapping of user's gestures from remote to local environemnts (and vice versa) for avatar based telepresence interactions. Gestural interactions can be 
+  divided into two types: i) positional interactions (Fig. 1) and ii) pointing interactions (Fig. 2). Positional interactions are interactions where the user has physical contact with an 
+  object in their environment. For example, picking cup a chess piece. Pointing interactions are interactions where the user points at a particular object in their environment.
+   Both these interactions need to be mapped onto the user’s avatar, in its environment, such that the interaction has its original intended meaning while also preserving the original nonverbal bodypose behavior. During my 
+  PhD, I proposed a Multiobjective optimization approach using genetic algorithms to solve this problem for both <a href ="https://ieeexplore.ieee.org/abstract/document/9644349">contact</a> and <a href ="https://dl.acm.org/doi/abs/10.1145/3565970.3567681">pointing gestures</a>. </p>
+
+
 <h2>Mapping of naturalistic locomotion paths between local and remote environments in mixed/augmented reality</h2>
 <figure>
-  <img src="research_portfolio_images/locomotion_redirection_project.png" alt="AR telepresence system" class="center" width=40% 
+  <img src="locomotion_redirection_project.png" alt="AR telepresence system" class="center" width=40% 
   height=27%>
   <figcaption>Fig. 3: The above figure shows the case of equivalent walking paths that need to be generated due to dissimilarities in the granddaughter, User1 and older adult, User2s environments. 
     (a) Represents one of the likely paths User1 may take along vertex points ABCDE to sit on the sofa to chat with User1s avatar in User2s environment. (b) Represents the equivalent path A'B'C'D'E' in User1’s 
     environment of the User2s path ABCDE after path deformation to reach the sofa. Note: The equivalent path A'B'C'D'E' is longer and hence the avatars speed in (b) needs to be higher than in (a), 
-    to reach the vertex E’ as the user in (a) reaches E. </figcaption>
+    to reach the vertex E’ as the user in (a) reaches E. Our solution is to use the concept of <a href ="https://dl.acm.org/doi/abs/10.1145/3562939.3565665">mesh deformation</a>. </figcaption>
 </figure>
 <p align="justify">Remote mixed reality (RMR) allows users to be present and interact in other users’ environments through their photorealistic avatars. Common interaction objects are 
   placed on surfaces in each user's environments and interacting with these objects require users to walk towards them. However, since the user's and their avatar's room's 
   spatial configuration are not exactly similar, for a particular user's walking path, an equivalent path must be found in the avatar's environment, according to its 
-  environment's spatial configuration. In this work, we use the concept of mesh deformation to obtain this path, where we deform the mesh associated with the user's 
+  environment's spatial configuration (Fig. 3). During my PhD, I <a href ="https://www.youtube.com/watch?v=_h_z-2WbFI0">proposed</a> the use of the concept of mesh deformation to obtain this path, where we deform the mesh associated with the user's 
   environment to fit to the spatial configuration of the avatar's environment. This gives us the corresponding mapping of every point between the two environments 
-  from which the equivalent path can be generated.</p>
+  from which the equivalent path can be generated. The generated equivalent path serves as a reference for the avatar to follow. It needs to be modulated to fit naturalistic constraints, which are an active area of my ongoing research..</p>
 <h2>Redirection of locomotion paths for obstacle avoidance in remote augmented/mixed reality</h2>
 <figure>
-  <img src="research_portfolio_images/obstacle_avoidance_project.png" alt="AR telepresence system" class="center">
-  <figcaption>Fig. 4: The above figure shows the problem of obstacles in a remote-local AR scenario. (a) shows one of the paths ABCDE the User1 (granddaughter) can take in her environment to reach the sofa. 
+  <img src="obstacle_avoidance_project.png" alt="AR telepresence system" class="center">
+  <figcaption>Fig. 4: The above figure shows a special case of Fig. 3, i.e., the problem of obstacles in a remote-local AR scenario. (a) shows one of the paths ABCDE the User1 (granddaughter) can take in her environment to reach the sofa. 
     (b) shows the redirected path A'B'C'D'E', User1’s avatar must follow to reach the sofa. However, the path A'B'C'D'E' needs to be modified to take into account the obstacle represented by the dining chairs 
-    represents in User2’s environment to prevent unnaturalistic interaction.  
+    represents in User2’s environment to prevent unnaturalistic interaction. During my PhD, I proposed an ellipse based solution that can modify the path smoothly around any irregularly shaped obstacle.   
 
   </figcaption>
 </figure>
@@ -53,26 +56,28 @@ author_profile: true
   Therefore, they do not serve any function from the perspective of mapping the user’s interaction from their environment to that of the avatar’s. However, the presence of 
   obstacles can cause problems during mapping of locomotion between environments. First, obstacles can be of any irregular shapes and can occur in any configurations. Although 
   many obstacles that appear in everyday room environments such as tables, chairs and other furniture have regular geometric shapes, they can occur together sometimes to create 
-  irregular shapes as shown in Fig. 4-2. Second, obstacles can be in either the avatar’s or the user’s environment and may not have any corresponding equivalent objects between the environments. 
+  irregular shapes as shown in Fig. 4. Second, obstacles can be in either the avatar’s or the user’s environment and may not have any corresponding equivalent objects between the environments. 
   This non-correspondence between the user’s and avatar’s environment can make the computation when finding equivalent paths complex. This is because the 
   obstacles in both the user’s and the avatar’s environments need to be considered which is unlike the case with furniture objects that will likely have 
   corresponding equivalence in both the environments. Moreover, we have presented the case for only two environments, i.e., the user’s and the avatar’s. However, it is likely 
   that multiple users would be present in the interaction, where the equivalent locomotion mapping would get even more complicated.  Thus, it is of great importance to find walkable 
-  paths that avoid obstacles. In this chapter, we propose an approach to finding equivalent path through a mapping between the user and their avatar’s environments that avoid obstacles.  		
+  paths that avoid obstacles. During my PhD, I proposed an approach to finding equivalent path through a mapping between the user and their avatar’s environments that avoids any iregularly shaped obstacles.  		
   </p>
 <h2>
   Older and Younger Adult Perceptions towards HMD based Telepresence Interaction in Collaborative AR</h2>
   <figure>
-    <img src="research_portfolio_images/remote_AR_telepresence_interaction.png" alt="AR telepresence system" class="center" width=40% 
+    <img src="remote_AR_telepresence_interaction.png" alt="AR telepresence system" class="center" width=40% 
     height=30%>
     <figcaption>Fig. 5: An example setup of a sample activity. An older adult, User1, is able to experience her granddaughter, User2, through her photorealistic avatar in her environement (left). 
       Similarly, User1 is represented in User2’s environement through her photorealistic avatar (right). Users’ interactions have been mapped to their respective avatars.</figcaption>
   </figure>
-  <p align="justify">This project involves developing collaborative activities in remote augmented reality that are adapted to the needs of older adults at long-term care (LTC) settings. The long term goal is for their friends and family to remotely interact with them via 3D virtual visits in AR through their photorealistic avatars. The hypothesis is that the immersive and collaborative nature of the interaction with loved ones will promote social connectedness and mitigate loneliness. The project follows an iterative approach of prototyping and refining activities in AR, with inputs from all involved stakeholders, including staff and family members of the older adults at LTC settings.</p>
-<h2>Iterative Participatory Design of Collaborative AR Activities for older adults at long-term care (LTC) settings</h2>
+  <p align="justify">The aim of this project is to obtain the perceptions of older adults, with younger adults being the control when interacting with a photorealistic avatar of a remote user. In addition to their perception, we are also interested to know whether full body emotions and gestures expressed through the avatar are discernable to the older adults. The system involves real-time bidirectional communication of the participants with a remote user and was developed using Unity game engine. The facial and body expressions are captured and transferred across the network using a ZeroMQ distributed computing architecture.
+  </h2>
+  <h2>
+    Iterative Participatory Design of Collaborative AR Activities for older adults at long-term care (LTC) settings</h2>
 <figure>
-  <img src="research_portfolio_images/older_adult_AR.png" alt="AR telepresence system" class="center">
-  <figcaption>AR telepresence system</figcaption>
+  <img src="older_adult_AR.png" alt="AR telepresence system" class="center">
+  <figcaption>Fig. 6: An older adult picking up a checkers piece in AR. An iterative participatory design was used to understand the needs of older adults for developing collaborative AR activities for them.</figcaption>
 </figure>
 <p align="justify">This project involves developing collaborative activities in remote augmented reality that are adapted to the needs of older adults at long-term care (LTC) settings. The long term goal is for their friends and family to remotely interact with them via 3D virtual visits in AR through their photorealistic avatars. The hypothesis is that the immersive and collaborative nature of the interaction with loved ones will promote social connectedness and mitigate loneliness. The project follows an iterative approach of prototyping and refining activities in AR, with inputs from all involved stakeholders, including staff and family members of the older adults at LTC settings.
   </p>
