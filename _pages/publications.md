@@ -9,7 +9,7 @@ author_profile: true
 
 * Provisional patent (full patent in progress): A Framework for Efficient Redirection of User’s Interactions and Gestures between Remote and Local Environments in Augmented Reality <b>(US63/385,190)</b>.
 
-* Provisional patent (full patent in progress): A Framework for efficient mapping of user locomotion between remote and local environments in Augmented Reality <b>(US63/385,366)</b>.
+* Provisional patent (full patent in progress): A Framework for Efficient Mapping of User Locomotion between Remote and Local Environments in Augmented Reality <b>(US63/385,366)</b>.
 
 * Provisional patent: Non-wearable Heartrate, Respiratory Rate and Motion Monitoring System <b>(US62/481,968)</b>.
 
