@@ -19,13 +19,13 @@ author_profile: true
   height=27%>
   <figcaption>Fig. 2: The above figure depicts the problem formulation for redirecting pointing interactions in AR telepresence with our novel approach to solving it. (a) User2 pointing in their environment. (b) User2’s photorealistic avatar as seen by User1 wearing the AR HMD with a direct one-to-one mapping of User2’s gestures. 
     Note the error in the pointing gesture. (c) Correction of pointing errors as done by current approaches; body pose-nonverbal communication of the original interaction is not preserved. 
-    (d) Correction of the pointing error by <a href ="https://dl.acm.org/doi/abs/10.1145/3565970.3567681">our presented framework</a>, that preserves the nonverbal aspects of the interaction, that is important in establishing social presence.  The picture depicts a volunteer and is used with permission.</figcaption>
+    (d) Correction of the pointing error by <a href ="https://dl.acm.org/doi/abs/10.1145/3565970.3567681">our presented framework</a>, that preserves the nonverbal aspects of the interaction, that is important in establishing social presence.</figcaption>
 </figure>
 <p align="justify">The above figures show mapping of user's gestures from remote to local environments (and vice versa) for avatar based telepresence interactions. Gestural interactions can be 
   divided into two types: i) positional interactions (Fig. 1) and ii) pointing interactions (Fig. 2). Positional interactions are interactions where the user has physical contact with an 
-  object in their environment. For example, picking cup a chess piece. Pointing interactions are interactions where the user points at a particular object in their environment.
+  object in their environment. For example, picking up a chess piece. Pointing interactions are interactions where the user points at a particular object in their environment.
    Both these interactions need to be mapped onto the user’s avatar, in its environment, such that the interaction has its original intended meaning while also preserving the original nonverbal bodypose behavior. During my 
-  PhD, I proposed a Multiobjective optimization approach using genetic algorithms to solve this problem for both <a href ="https://www.youtube.com/watch?v=9drgJpYwI6A">contact</a> and <a href ="https://www.youtube.com/watch?v=1SoQeRj6p_M">pointing gestures</a>. </p>
+  PhD, I proposed a multiobjective optimization approach using genetic algorithms to solve this problem for both <a href ="https://www.youtube.com/watch?v=9drgJpYwI6A">contact</a> and <a href ="https://www.youtube.com/watch?v=1SoQeRj6p_M">pointing gestures</a>. </p>
 
 
 <h2>Generation of naturalistic locomotion paths between local and remote environments in mixed/augmented reality</h2>
@@ -42,7 +42,7 @@ author_profile: true
   spatial configuration are not exactly similar, for a particular user's walking path, an equivalent path must be found in the avatar's environment, according to its 
   environment's spatial configuration (Fig. 3). During my PhD, I <a href ="https://www.youtube.com/watch?v=_h_z-2WbFI0">proposed</a> the use of the concept of mesh deformation to obtain this path, where we deform the mesh associated with the user's 
   environment to fit to the spatial configuration of the avatar's environment. This gives us the corresponding mapping of every point between the two environments 
-  from which the equivalent path can be generated. The generated equivalent path serves as a reference for the avatar to follow. It needs to be modulated to fit naturalistic constraints, which are an active area of my ongoing research.</p>
+  from which the equivalent path can be generated. The generated equivalent path serves as a reference for the avatar to follow. It needs to be modulated to fit naturalistic constraints, which is an active area of my ongoing research.</p>
 <h2>Redirection of locomotion paths for obstacle avoidance in remote augmented/mixed reality</h2>
 <figure>
   <img src="https://akshith-ullal.github.io/web/_pages/images/obstacleavoidanceproject.PNG" alt="The figure shows a special case of Fig. 3, i.e., the problem of obstacles in a remote-local AR scenario. " class="center">
@@ -56,7 +56,7 @@ author_profile: true
   Therefore, they do not serve any function from the perspective of mapping the user’s interaction from their environment to that of the avatar’s. However, the presence of 
   obstacles can cause problems during mapping of locomotion between environments. First, obstacles can be of any irregular shapes and can occur in any configurations. Although 
   many obstacles that appear in everyday room environments such as tables, chairs and other furniture have regular geometric shapes, they can occur together sometimes to create 
-  irregular shapes as shown in Fig. 4. Second, obstacles can be in either the avatar’s or the user’s environment and may not have any corresponding equivalent objects between the environments. 
+  irregular shapes. Second, obstacles can be in either the avatar’s or the user’s environment and may not have any corresponding equivalent objects between the environments. 
   This non-correspondence between the user’s and avatar’s environment can make the computation when finding equivalent paths complex. This is because the 
   obstacles in both the user’s and the avatar’s environments need to be considered which is unlike the case with furniture objects that will likely have 
   corresponding equivalence in both the environments. Moreover, we have presented the case for only two environments, i.e., the user’s and the avatar’s. However, it is likely 
