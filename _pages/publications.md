@@ -15,7 +15,9 @@ author_profile: true
 
 <h2>Publications</h2>
 
-* Watkins, A.,**Ullal, A.**, Sarkar, N. "Every “Body” gets a say: Preserving Body Pose during Avatar Adaptation in Mixed/Augmented Reality.” To appear in the IEEE Transactions on Visualization and Computing.
+* **Ullal, A.**, Tauseef, M., Watkins, A., et. al. "An Iterative Participatory Design Approach to Develop Collaborative Augmented Reality Activities for Older Adults in Long-Term Care Facilities.” To appear in the <i>ACM Conference on Human Factors in Computing (CHI),</i> 2024.
+
+* Watkins, A.,**Ullal, A.**, Sarkar, N. "Every “Body” gets a say: An Augmented Optimization Metric to Preserve Body Pose during Avatar Adaptation in Mixed/Augmented Reality.” To appear in the <i>IEEE Transactions on Visualization and Computing </i>.
 
 * Migovich, M., **Ullal, A.**, et. al. " Feasibility of wearable devices and machine learning for sleep classification in children with Rett syndrome: A pilot study." In <i>Digital Health,</i> pp. 1-9. 2023. <a href = "https://journals.sagepub.com/doi/full/10.1177/20552076231191622">Download</a>
 
