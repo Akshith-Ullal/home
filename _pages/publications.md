@@ -9,7 +9,7 @@ author_profile: true
 
 * US patent: System and Method for Efficient Redirection of User Interactions and Gestures between Remote and Local Environments in Augmented Reality <b>(US20240177434A1)</b>.
 
-* US patent: System and Method for Efficient Mapping of User Locomotion between Remote and Local Environments in Augmented Reality <b>(US18/522,027)</b>.
+* US patent: System and Method for Efficient Mapping of User Locomotion between Remote and Local Environments in Augmented Reality <b>(US20240177426A1)</b>.
 
 * US patent under progress: System and method to generate naturalistic locomotion paths for avatar telepresence interactions that involve large size differences between user and avatar environments <b>(VU24205)</b>.
 
