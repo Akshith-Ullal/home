@@ -7,17 +7,23 @@ author_profile: true
 
 <h2>Patents</h2>
 
-* US Patent (under review): A Framework for Efficient Redirection of User’s Interactions and Gestures between Remote and Local Environments in Augmented Reality <b>(US18/522,011)</b>.
+* US patent: System and Method for Efficient Redirection of User Interactions and Gestures between Remote and Local Environments in Augmented Reality <b>(US20240177434A1)</b>.
 
-* US patent (under review): A Framework for Efficient Mapping of User Locomotion between Remote and Local Environments in Augmented Reality <b>(US18/522,027)</b>.
+* US patent: System and Method for Efficient Mapping of User Locomotion between Remote and Local Environments in Augmented Reality <b>(US18/522,027)</b>.
 
-* US Provisional patent: Non-wearable Heartrate, Respiratory Rate and Motion Monitoring System <b>(US62/481,968)</b>.
+* US patent under progress: System and method to generate naturalistic locomotion paths for avatar telepresence interactions that involve large size differences between user and avatar environments <b>(VU24205)</b>.
+
+* US patent under progress: System and method to generate naturalistic walking gait body poses based on given input velocity and body joint constraints for performing naturalistic avatar-based telepresence interactions in mixed reality  <b>(VU24206)</b>.
+
+* US provisional patent: Non-wearable Heartrate, Respiratory Rate and Motion Monitoring System <b>(US62/481,968)</b>.
 
 <h2>Publications</h2>
 
-* **Ullal, A.**, Tauseef, M., Watkins, A., et. al. "An Iterative Participatory Design Approach to Develop Collaborative Augmented Reality Activities for Older Adults in Long-Term Care Facilities.” To appear in the <i>ACM Conference on Human Factors in Computing (CHI),</i> 2024.
+* **Ullal, A.**, Tauseef, M., Watkins, A., et. al. "An Iterative Participatory Design Approach to Develop Collaborative Augmented Reality Activities for Older Adults in Long-Term Care Facilities.” To appear in the <i>ACM Conference on Human Factors in Computing (CHI),</i> 2024. <a href = "https://dl.acm.org/doi/10.1145/3613904.3642595">Download</a>
 
-* Watkins, A.,**Ullal, A.**, Sarkar, N. "Every “Body” gets a say: An Augmented Optimization Metric to Preserve Body Pose during Avatar Adaptation in Mixed/Augmented Reality.” To appear in the <i>IEEE Transactions on Visualization and Computing </i>.
+
+* Watkins, A.,**Ullal, A.**, Sarkar, N. "Every “Body” gets a say: An Augmented Optimization Metric to Preserve Body Pose during Avatar Adaptation in Mixed/Augmented Reality.” To appear in the <i>IEEE Transactions on Visualization and Computing </i>. <a href = "https://ieeexplore.ieee.org/abstract/document/10504617">Download</a>
+
 
 * Migovich, M., **Ullal, A.**, et. al. " Feasibility of wearable devices and machine learning for sleep classification in children with Rett syndrome: A pilot study." In <i>Digital Health,</i> pp. 1-9. 2023. <a href = "https://journals.sagepub.com/doi/full/10.1177/20552076231191622">Download</a>
 

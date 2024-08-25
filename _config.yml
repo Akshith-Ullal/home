@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Akshith Ullal"
 title_separator          : "-"
 name                     : &name "Akshith Ullal"
-description              : &description "PhD candidate, Vanderbilt University"
+description              : &description "UF IC3, PhD, Vanderbilt University"
 url                      : https://akshith-ullal.github.io/web # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Akshith-Ullal/akshith-ullal.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Akshith Ullal"
   avatar           : "profile.png"
-  bio              : "PhD candidate, Vanderbilt University"
-  location         : "Nashville, TN, USA"
+  bio              : "UF IC3, PhD, Vanderbilt University"
+  location         : "Gainesville, FL, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=2ihJFWwAAAAJ&hl=en"
